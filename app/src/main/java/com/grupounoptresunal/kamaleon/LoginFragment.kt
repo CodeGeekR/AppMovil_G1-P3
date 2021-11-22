@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.grupounoptresunal.kamaleon.databinding.FragmentLoginBinding
 
 
@@ -30,6 +31,18 @@ class LoginFragment : Fragment() {
         return binding.root
     }
 
+    override fun onStart() {
+        super.onStart()
+        binding.buttonRegisLogin.setOnClickListener() {
+            findNavController().navigate(R.id.action_loginFragment_to_registroFragment2)
+
+
+        }
+        binding.buttonOlvidePassword.setOnClickListener() {
+            findNavController().navigate(R.id.action_loginFragment_to_passwordOlvidadoFragment2)
+
+        }
+    }
 
 
 }
