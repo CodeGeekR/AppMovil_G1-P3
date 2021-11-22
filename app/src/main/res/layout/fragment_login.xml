@@ -10,7 +10,7 @@
         android:id="@+id/imageView2"
         android:layout_width="220dp"
         android:layout_height="120dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/logo_letras"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,7 +19,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextTextEmailLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -42,7 +42,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextTextPasswordLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -53,7 +53,7 @@
         android:hint="@string/password_label"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailLogin"
         app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -65,7 +65,7 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button"
+        android:id="@+id/buttonInicionSeccion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -73,13 +73,15 @@
         android:layout_marginEnd="32dp"
         android:fontFamily="@font/lato_black"
         android:hint="@string/Login_label"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPasswordLogin" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button2"
+        android:id="@+id/buttonRegisLogin"
+        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -87,11 +89,27 @@
         android:layout_marginEnd="32dp"
         android:fontFamily="@font/lato_black"
         android:hint="@string/Register_label"
+
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/buttonInicionSeccion" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonOlvidePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/lato_black"
+        android:hint="@string/olvide_Password"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColorHint="@color/purple_700"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegisLogin" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView"
@@ -101,7 +119,7 @@
         android:src="@drawable/logo_meta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@id/buttonOlvidePassword" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView3"
@@ -111,7 +129,7 @@
         android:src="@drawable/logo_g"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@id/buttonOlvidePassword" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView4"
@@ -121,6 +139,6 @@
         android:src="@drawable/logo_tw"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@id/buttonOlvidePassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

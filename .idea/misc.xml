@@ -8,9 +8,14 @@
         <entry key="../../Kamaleon/AppMovil_G1-P3/app/src/main/res/layout/activity_splash.xml" value="0.19270833333333334" />
         <entry key="../../Kamaleon/AppMovil_G1-P3/app/src/main/res/layout/content_actividad_inicial.xml" value="0.19270833333333334" />
         <entry key="../../Kamaleon/AppMovil_G1-P3/app/src/main/res/layout/fragment_login.xml" value="0.18" />
+        <entry key="..\:/Users/COMPUMAX/Documents/GitHub/AppMovil_G1-P3/app/src/main/res/layout/activity_splash.xml" value="0.3625" />
+        <entry key="..\:/Users/COMPUMAX/Documents/GitHub/AppMovil_G1-P3/app/src/main/res/layout/fragment_login.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/COMPUMAX/Documents/GitHub/AppMovil_G1-P3/app/src/main/res/layout/fragment_password_olvidado.xml" value="0.5" />
+        <entry key="..\:/Users/COMPUMAX/Documents/GitHub/AppMovil_G1-P3/app/src/main/res/layout/fragment_password_olvidado_continuar.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/COMPUMAX/Documents/GitHub/AppMovil_G1-P3/app/src/main/res/layout/fragment_registro.xml" value="0.3541666666666667" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

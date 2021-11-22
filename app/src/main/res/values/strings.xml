@@ -13,8 +13,17 @@
     <string name="next">Siguiente</string>
     <string name="previous">Atras</string>
     <string name="email_label">Ingrese su e-mail</string>
+    <string name="name_label">Ingrese su nombre</string>
     <string name="password_label">Ingrese su contraseña</string>
     <string name="Login_label">Iniciar Sesión</string>
     <string name="Register_label">Registrate</string>
     <string name="Forgot_label">Olvide mi contraseña</string>
+    <string name="phone_label">Ingrese su numero telefonico</string>
+    <string name="password_confirmar_label">Confirme su contraseña</string>
+    <string name="CancelarRegistro_label">Ya Tengo Cuenta</string>
+    <string name="olvide_Password">Olvidé mi contraseña</string>
+    <string name="continuar">Continuar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="passwordNew">Ingrese su nueva contraseña</string>
+
 </resources>

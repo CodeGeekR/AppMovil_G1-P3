@@ -9,5 +9,42 @@
         android:id="@+id/loginFragment"
         android:name="com.grupounoptresunal.kamaleon.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registroFragment2"
+            app:destination="@id/registroFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_passwordOlvidadoFragment2"
+            app:destination="@id/passwordOlvidadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.grupounoptresunal.kamaleon.RegistroFragment"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" >
+        <action
+            android:id="@+id/action_registroFragment_to_loginFragment2"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordOlvidadoFragment"
+        android:name="com.grupounoptresunal.kamaleon.PasswordOlvidadoFragment"
+        android:label="fragment_password_olvidado"
+        tools:layout="@layout/fragment_password_olvidado" >
+        <action
+            android:id="@+id/action_passwordOlvidadoFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_passwordOlvidadoFragment_to_passwordOlvidadoContinuarFragment"
+            app:destination="@id/passwordOlvidadoContinuarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordOlvidadoContinuarFragment"
+        android:name="com.grupounoptresunal.kamaleon.PasswordOlvidadoContinuarFragment"
+        android:label="fragment_password_olvidado_continuar"
+        tools:layout="@layout/fragment_password_olvidado_continuar" >
+        <action
+            android:id="@+id/action_passwordOlvidadoContinuarFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
 </navigation>
