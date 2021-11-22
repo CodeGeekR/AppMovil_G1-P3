@@ -36,6 +36,7 @@ class LoginFragment : Fragment() {
         binding.buttonRegisLogin.setOnClickListener() {
             findNavController().navigate(R.id.action_loginFragment_to_registroFragment2)
 
+
         }
         binding.buttonOlvidePassword.setOnClickListener() {
             findNavController().navigate(R.id.action_loginFragment_to_passwordOlvidadoFragment2)
