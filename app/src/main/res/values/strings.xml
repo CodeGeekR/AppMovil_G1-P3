@@ -25,5 +25,13 @@
     <string name="continuar">Continuar</string>
     <string name="cancelar">Cancelar</string>
     <string name="passwordNew">Ingrese su nueva contraseña</string>
+    <string name="home_tittle">Información Tienda</string>
+    <string name="profile_tittle">Mi perfil</string>
+    <string name="comment_tittle">Comentarios</string>
+    <string name="product_tittle">Mis productos</string>
+    <string name="product_label">Productos</string>
+    <string name="home_label">Home</string>
+    <string name="comment_label">Comentarios</string>
+    <string name="profile_label">Mi perfil</string>
 
 </resources>

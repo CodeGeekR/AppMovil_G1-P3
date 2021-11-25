@@ -1,5 +1,6 @@
 package com.grupounoptresunal.kamaleon
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -42,7 +43,30 @@ class LoginFragment : Fragment() {
             findNavController().navigate(R.id.action_loginFragment_to_passwordOlvidadoFragment2)
 
         }
-    }
 
+        binding.buttonInicionSeccion.setOnClickListener{
+            var isValid=true
+
+            if(!binding.loginEmail.text.isValidEmail()){
+                isValid = false
+                binding.loginEmail.error = "correo electrónico no válido"
+            } else {
+                binding.loginEmail.error = null
+            }
+
+            if(binding.loginPassword.text.toString().length < 4){
+                isValid = false
+                binding.loginPassword.error = "contraseña no válida"
+            } else {
+                binding.loginPassword.error = null
+            }
+
+            if(isValid){
+                val intent = Intent(requireContext(), HomeActivity::class.java)
+                startActivity(intent)
+            }
+
+        }
+    }
 
 }
