@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.grupounoptresunal.kamaleon.LoginFragment"
+        android:name="com.grupounoptresunal.kamaleon.ui.fragments.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/registroFragment"
-        android:name="com.grupounoptresunal.kamaleon.RegistroFragment"
+        android:name="com.grupounoptresunal.kamaleon.ui.fragments.RegistroFragment"
         android:label="fragment_registro"
         tools:layout="@layout/fragment_registro" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/passwordOlvidadoFragment"
-        android:name="com.grupounoptresunal.kamaleon.PasswordOlvidadoFragment"
+        android:name="com.grupounoptresunal.kamaleon.ui.fragments.PasswordOlvidadoFragment"
         android:label="fragment_password_olvidado"
         tools:layout="@layout/fragment_password_olvidado" >
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/passwordOlvidadoContinuarFragment"
-        android:name="com.grupounoptresunal.kamaleon.PasswordOlvidadoContinuarFragment"
+        android:name="com.grupounoptresunal.kamaleon.ui.fragments.PasswordOlvidadoContinuarFragment"
         android:label="fragment_password_olvidado_continuar"
         tools:layout="@layout/fragment_password_olvidado_continuar" >
         <action

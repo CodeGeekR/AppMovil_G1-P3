@@ -33,5 +33,6 @@
     <string name="home_label">Home</string>
     <string name="comment_label">Comentarios</string>
     <string name="profile_label">Mi perfil</string>
+    <string name="product_detail">Detalles del producto</string>
 
 </resources>

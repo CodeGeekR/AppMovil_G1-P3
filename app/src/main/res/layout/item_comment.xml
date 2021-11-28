@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app= "http://schemas.android.com/apk/res-auto"
+    xmlns:tool = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="10dp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/item_comment_photo"
+            android:layout_margin="1dp"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tool:src="@drawable/logokama"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/item_comment_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/work_sans_semibold"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="5dp"
+            app:layout_constraintLeft_toRightOf="@id/item_comment_photo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+            tool:text="Nombre de persona">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/item_comment_tex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+
+            android:fontFamily="@font/lato_bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:typeface="normal"
+            app:layout_constraintLeft_toRightOf="@id/item_comment_photo"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_comment_name"
+            tool:text="his by they suspected boy besides wrong yet favour an Not an speaking Remain forming a understood at no one up friendship be out painful was her Off am up fat Felicity good jennings laughing sent above stood Goodness On he questions seems so t ">
+
+        </TextView>
+        <TextView
+            android:id="@+id/item_comment_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="#020202"
+            android:textSize="12sp"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginVertical="10dp"
+            app:layout_constraintLeft_toRightOf="@id/item_comment_photo"
+            app:layout_constraintTop_toBottomOf="@id/item_comment_tex"
+            android:layout_marginHorizontal="5dp"
+            tool:text="14/02/2201">
+
+
+        </TextView>
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

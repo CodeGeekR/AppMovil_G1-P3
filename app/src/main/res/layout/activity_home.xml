@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".ui.activities.HomeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
@@ -14,7 +14,8 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.Kamaleon.AppBarOverlay">
+        android:theme="@style/Theme.Kamaleon.AppBarOverlay"
+        >
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -22,9 +23,12 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:background="@color/purple_500"
         app:popupTheme="@style/Theme.Kamaleon.PopupOverlay"
-        tools:ignore="MissingConstraints"/>
+
+        tools:ignore="MissingConstraints"
+        />
 
     <include
         layout="@layout/content_home"
