@@ -34,5 +34,7 @@
     <string name="comment_label">Comentarios</string>
     <string name="profile_label">Mi perfil</string>
     <string name="product_detail">Detalles del producto</string>
+    <string name="logout">Cerrar Sesion</string>
+    <string name="edit_profile">Editar Perfil</string>
 
 </resources>

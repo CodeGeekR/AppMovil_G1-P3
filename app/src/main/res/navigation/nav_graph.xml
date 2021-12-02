@@ -12,10 +12,12 @@
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_registroFragment2"
-            app:destination="@id/registroFragment" />
+            app:destination="@id/registroFragment"
+            app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_loginFragment_to_passwordOlvidadoFragment2"
-            app:destination="@id/passwordOlvidadoFragment" />
+            app:destination="@id/passwordOlvidadoFragment"
+            app:popUpTo="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/registroFragment"
@@ -24,7 +26,8 @@
         tools:layout="@layout/fragment_registro" >
         <action
             android:id="@+id/action_registroFragment_to_loginFragment2"
-            app:destination="@id/loginFragment" />
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/passwordOlvidadoFragment"
@@ -33,7 +36,8 @@
         tools:layout="@layout/fragment_password_olvidado" >
         <action
             android:id="@+id/action_passwordOlvidadoFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment" />
         <action
             android:id="@+id/action_passwordOlvidadoFragment_to_passwordOlvidadoContinuarFragment"
             app:destination="@id/passwordOlvidadoContinuarFragment" />
@@ -45,6 +49,7 @@
         tools:layout="@layout/fragment_password_olvidado_continuar" >
         <action
             android:id="@+id/action_passwordOlvidadoContinuarFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment" />
     </fragment>
 </navigation>
